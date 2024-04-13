@@ -1,0 +1,218 @@
+
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  background-color: #1C1C1C;
+}
+
+header{
+    text-align: center;
+    background-color: #daddd885;
+    height: 100px ;
+    color: #ecebe4 ;
+    font-size: 50px;
+    word-spacing: 15px;    
+}
+
+
+.container
+{
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+}
+.boxes
+{
+    gap: 15px;
+    height:50vmin;
+    width: 50vmin;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+.btns{
+    background-color: #EEF0F2;
+    text-decoration: none;
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 15px;
+    color: black;
+    font-size: 50px;
+    font-weight:700;
+   border: NONE;
+    box-shadow: 0.5px;
+    transition: 0.3ms;
+    
+}
+.btns :hover
+{
+    border: 4px solid;
+    border-color: #19232c;
+}
+
+.winnertitle
+{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#msg
+{
+   color: #FAFAFF;
+   font-size: 50px; 
+        font-weight: 500;
+}
+
+.hide
+{
+    display: none;
+}
+
+
+
+.resetbutton
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.rbutton
+{
+    color: black;
+   font-size: 15px;
+   
+   font-family: "Roboto", sans-serif;font-weight: 800;
+   font-size: 20px;
+   padding: 15px;
+   
+    text-align: center;
+    margin-top: 50px;
+    min-width: 150px;
+    min-height: 60px ;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+.rbutton:hover
+{
+    
+    font-family: "Roboto", sans-serif;
+    color: #ecebe4;
+    font-weight: 800;
+    min-width: 154px;
+    min-height: 64px ;
+    background-color: transparent;
+    border-color:#ecebe4 3px solid;
+    border: 3px solid;
+    cursor: pointer;
+
+}
+
+@media ( max-width: 615px)
+ {
+  
+header {
+    text-align: center;
+    background-color: #daddd885;
+    height: 100px ;
+    color: #ecebe4 ;
+    font-size: 40px;
+    word-spacing: 15px;    
+}
+
+
+.boxes
+{
+    gap: 15px;
+    height:45vmin;
+    width: 45vmin;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.btns{
+    background-color: #EEF0F2;
+    text-decoration: none;
+    height: 12vmin;
+    width: 12vmin;
+    border-radius: 15px;
+    color: black;
+    font-size: 50px;
+    font-weight:700;
+   border: NONE;
+    box-shadow: 0.5px;
+    transition: 0.3ms;
+    
+}
+
+
+.rbutton
+{
+    color: black;
+   font-size: 15px;
+   
+   font-family: "Roboto", sans-serif;font-weight: 800;
+   font-size: 20px;
+   padding: 15px;
+   
+    text-align: center;
+    margin-top: 50px;
+    min-width: 130px;
+    min-height: 50px ;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+.rbutton:hover
+{
+    
+    font-family: "Roboto", sans-serif;
+    color: #ecebe4;
+    font-weight: 800;
+    min-width: 134px;
+    min-height: 54px ;
+    background-color: transparent;
+    border-color:#ecebe4 3px solid;
+    border: 3px solid;
+    cursor: pointer;
+
+}
+
+}
+
+
+@media(max-width: 615px) {
+
+    header {
+        text-align: center;
+        background-color: #daddd885;
+        height: 100px ;
+        color: #ecebe4 ;
+        font-size: 30px;
+        word-spacing: 15px;    
+    }
+    
+}
+
